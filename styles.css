@@ -1,0 +1,13 @@
+/* CSS file placeholder. */
+.output{
+  width:200px;
+  height:100px;
+  border-width:2px;
+  border-style:inset ;
+}
+
+body {
+      -webkit-user-select: text !important;
+  
+  
+}
