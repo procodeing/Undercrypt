@@ -59,7 +59,13 @@ function decryptable(st, key) {
     var mast = st.split('^');
     var non;
     for (non = 0; non < mast.length; non++) {
+      if(!(mast[non] == '')){
         mast[non] = key[mast[non]];
+      }else{
+        
+        mast[non] = ' ';
+      }
+      
     }
     mast = mast.join('');
     return mast;
